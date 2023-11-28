@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:1600px) {
+    .topheader{
+        background-color: #adabab;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    .laco-inicial{
+        min-height: 8vh;
+        width: 98%;
+        background-color: rgb(77, 5, 5);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    #logoatinfo img{
+        width: 1030px;
+    }
+    
+    .conteudo{
+        background-color: rgb(161, 81, 72);
+        width: 85%;
+        min-height: 90vh;   
+    }
+}
+

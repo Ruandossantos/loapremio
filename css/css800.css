@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:428px) {
+    .topheader{
+        background-color: #adabab;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    
+    .laco-inicial{
+        min-height: 8vh;
+        width: 98%;
+        background-color: #ebe9e9;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.788);
+    }
+    .logos{
+        display: flex;
+        width: 100px;
+        height: 40px;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .logos #logoatinfo img{
+        width: 50px;
+    }
+    .logos #logo16anos img{
+        width: 36px;
+    }
+
+    .linha{
+        width: 24%;
+        height: 2px;
+        background-color: black;
+    }
+    .frasepromo P{
+        font-size: .6rem;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .conteudo{
+        background-color: rgb(161, 81, 72);
+        width: 85%;
+        min-height: 80vh;   
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .conteudo .motosorteio img{
+        width: 400px;
+    }
+
+    .conteudo .txtverde span {
+        font-size: 0.8rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+    }
+
+}
+
