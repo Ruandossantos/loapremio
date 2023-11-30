@@ -42,6 +42,7 @@
     .linha{
         width: 24%;
         height: 1px;
+        background-color: #616160;
     }
     .frasepromo P{
         font-size: .6rem;
@@ -51,14 +52,14 @@
 
     .conteudo{
         width: 96%;
-        min-height: 90vh;   
+        min-height: 93vh;   
         display: flex;
         align-items: center;
         justify-content: center;
     }
     .container{
-        width: 97%;
-        height: 640px;
+        width: 99%;
+        height: 673px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -92,18 +93,18 @@
         width: 80%;
         height: 1px;
         background-color: rgba(0, 0, 0, 0.623);
-        margin-bottom: 20px;
+        margin-bottom: 5%;
     }
     .conteudo .txtverde{
         height: 50px;
         width: 92%;
-        margin-bottom: 30px;
+        margin-bottom: 4%;
         line-height: 15px;
     }
 
 
     .conteudo .txtverde span {
-        font-size: 0.8rem;
+        font-size: 9pt;
         font-weight: 800;
         font-family: 'Montserrat', sans-serif;
         color: #118b3a;
@@ -111,9 +112,6 @@
     }
 
     .txtexplica{
-        background-color: rgb(106, 106, 241);
-        height: 80px;
-        width: 100%;
         margin-bottom: 40px;
     }
   
@@ -121,35 +119,35 @@
     .txtexplica span{
         font-family: 'Montserrat', sans-serif;
         font-weight: 800;
-        font-size: 0.8rem;
-        text-align-last:center;
+        font-size: .7rem;
         color: #616160;
+        margin-left: 5%;
     }
 
     .txtexplica p {
         font-family: 'Montserrat', sans-serif;
         font-weight: 800;
-        font-size: 0.8rem;
-        text-align-last:center;
+        font-size: 0.7rem;
         color: #616160;
+        
     }
-    
     
 
     .logo-final {
-        background-color: rebeccapurple;
-        height: 70px;
-        width: 70px;
+        height: 90px;
+        width: 90px;
     }
     .logo-final img{
         width: 100%;
     }
-}
 
-
-
-
-/*ESTILIZAÇÃO DO MAIN*/
+    .targapreta{
+        background-color: #616160;
+        height: 10px;
+        width: 106%;
+        margin-top: 21%;
+    }
+    /*ESTILIZAÇÃO DO MAIN*/
 
 main{
     background-color:  #f3f3f3;
@@ -160,7 +158,12 @@ main{
     flex-direction: column;
     justify-content: center;
 }
-
+.targapreta2{
+    background-color: #616160;
+    height: 10px;
+    width: 100%;
+    margin-top: 17%
+}
 main h1 {
     font-size: 1.3rem;
     text-align: center;
@@ -243,3 +246,9 @@ H3{
     width: 90px;
     height: 60px;
 }
+
+}
+
+
+
+
