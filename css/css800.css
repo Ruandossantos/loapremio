@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width:428px) {
+
     .topheader{
         width: 100%;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
         align-items: center;
+        background-color: #fff;
     }
     
     
@@ -92,7 +93,7 @@
     .linha2{ 
         width: 80%;
         height: 1px;
-        background-color: rgba(0, 0, 0, 0.623);
+        background-color: #616160;
         margin-bottom: 5%;
     }
     .conteudo .txtverde{
@@ -103,7 +104,7 @@
     }
 
 
-    .conteudo .txtverde span {
+    .conteudo .txtverde #fraverde {
         font-size: 9pt;
         font-weight: 800;
         font-family: 'Montserrat', sans-serif;
@@ -113,29 +114,32 @@
 
     .txtexplica{
         margin-bottom: 40px;
+        display: flex;
+        flex-direction: column;
     }
   
 
-    .txtexplica span{
+    #ani{
         font-family: 'Montserrat', sans-serif;
-        font-weight: 800;
-        font-size: .7rem;
+        font-weight: 500;
+        font-size: .6rem;
         color: #616160;
-        margin-left: 5%;
+        text-align: center;
     }
 
     .txtexplica p {
         font-family: 'Montserrat', sans-serif;
-        font-weight: 800;
-        font-size: 0.7rem;
-        color: #616160;
-        
+        font-weight: 500;
+        font-size: 0.6rem;
+        color: #616160; 
+        text-align: center;
     }
     
 
     .logo-final {
-        height: 90px;
-        width: 90px;
+        height: 100px;
+        width: 100px;
+
     }
     .logo-final img{
         width: 100%;
@@ -143,26 +147,25 @@
 
     .targapreta{
         background-color: #616160;
-        height: 10px;
+        height: 15px;
         width: 106%;
-        margin-top: 21%;
+        margin-top: 20%;
     }
     /*ESTILIZAÇÃO DO MAIN*/
 
 main{
-    background-color:  #f3f3f3;
+    background-color:  #fff;
     min-height: 100vh;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
+
 .targapreta2{
     background-color: #616160;
-    height: 10px;
+    height: 15px;
     width: 100%;
-    margin-top: 17%
 }
 main h1 {
     font-size: 1.3rem;
@@ -195,7 +198,7 @@ main #paraquem {
 .cliente p{
     font-size: 70%;
     padding-bottom: 4%;
-    font-weight: 700;
+    font-weight: 500;
     color:#f1f1f1;
 }
 
@@ -219,12 +222,12 @@ H3{
 
 .naocliente{
     background-color:#118b3a;
-    min-height: 30vh;
+    min-height: 25vh;
     width: 97%;
     padding-left: 7px;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -232,7 +235,7 @@ H3{
 .naocliente p{
     font-size: 70%;
     padding-bottom: 4%;
-    font-weight: 700;
+    font-weight: 500;
     color: #f1f1f1;
 }
 
@@ -247,8 +250,116 @@ H3{
     height: 60px;
 }
 
+
+
+
+.meurodape{
+    min-height: 98vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerfooter{
+    width: 80%;
+    min-height: 90vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.targaverde{
+    background-color: #118b3a;
+    height: 20px;
+    width: 100%;
+}
+
+.logoatinfofoo{
+    width: 100%;
+    min-height: 15vh;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+.address{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .6rem;
+    font-weight: 700;
+    color: #616160;   
+}
+
+.listraverde1{
+    background-color: #118b3ae7;
+    height: 1px;
+    width: 100%;
+    margin-top: 7%;
+}
+
+.caixatexto, .promo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 61%;
+    font-weight: 700;
+    color: #616160;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.listraverde2{
+    background-color: #118b3aec;
+    height: 1px;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.redessociais {
+    display: flex;
+    min-height: 5vh;
+    justify-content: center;
+    gap: 40px;
+}
+.redessociais i{
+    font-size:1.8rem;
+    color: #616160;
+}
+.redessociais .material-symbols-outlined{
+    font-size:1.9rem;
+    color: #616160;
+}
+.caixatexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 20%
+}
+
+.caixatexto input{
+    color: #616160;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    border: 1px solid #118b3a;
+}
+
+.duvi{
+    font-size: 0.8rem;
+    color: #616160;
 }
 
 
 
+.logoatinfofoo img{
+    width: 60%;
+}
 
+.logo16anosfoo img{
+ width: 100px;
+}
+
+.targaverde2{
+    background-color: #118b3a;
+    height: 20px;
+    width: 100%;
+    margin-top: -1%
+}
